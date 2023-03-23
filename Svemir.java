@@ -38,7 +38,9 @@ public class Svemir extends Canvas implements Runnable {
 				repaint();
 				Thread.sleep(100);
 			}
-		} catch (InterruptedException e) {}
+		} catch (InterruptedException e) {
+			System.out.println("A");
+		}
 	}
 
 }
